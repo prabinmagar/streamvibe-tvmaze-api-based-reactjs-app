@@ -98,7 +98,7 @@ const Header = () => {
                   onClick={handleNavLinkClick}
                   to={routeConstants.SHOWS}
                   className={`nav-link inline-flex items-center justify-center text-center ${
-                    location.pathname === routeConstants.SHOWS ? "active" : ""
+                    location.pathname === routeConstants.SHOWS || location.pathname.startsWith(routeConstants.SHOWS) ? "active" : ""
                   }`}
                 >
                   Shows

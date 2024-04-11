@@ -37,7 +37,7 @@ export const SliderWrapper = styled.div`
     `}
   }
 
-  .custom-right-arrow {
+  .custom-next-arrow {
     right: 8px;
     left: auto;
 
